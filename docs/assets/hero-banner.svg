@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="70%" stop-color="#050505"/>
+      <stop offset="100%" stop-color="#0A0A0A"/>
+    </linearGradient>
+    <radialGradient id="goldGlow" cx="0.82" cy="0.28" r="0.52">
+      <stop offset="0%" stop-color="#D6B46A" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#D6B46A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardGrad" x1="730" y1="64" x2="1136" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#141414"/>
+      <stop offset="50%" stop-color="#090909"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="chipGrad" x1="0" y1="0" x2="42" y2="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F3E2B3"/>
+      <stop offset="50%" stop-color="#D6B46A"/>
+      <stop offset="100%" stop-color="#9F7E39"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#bgGrad)" stroke="#242424" stroke-width="1.5"/>
+  <rect width="1200" height="360" rx="24" fill="url(#goldGlow)"/>
+
+  <!-- Left Branding & Copy -->
+  <rect x="64" y="62" width="154" height="28" rx="14" fill="#211B0F" stroke="#D6B46A" stroke-opacity="0.45"/>
+  <circle cx="82" cy="76" r="4" fill="#24B47E"/>
+  <text x="94" y="80" fill="#D6B46A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="600" letter-spacing="1.2">100% OFFLINE VAULT</text>
+
+  <text x="64" y="148" fill="#F5F5F5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="56" font-weight="700" letter-spacing="-1">Hisabi</text>
+  <text x="64" y="186" fill="#A1A7B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="400">Pure OLED Black Personal Expense Tracker &amp; Multi-Wallet Ledger</text>
+
+  <!-- Tech Pill Tags -->
+  <rect x="64" y="224" width="90" height="30" rx="10" fill="#0A0A0A" stroke="#242424"/>
+  <text x="109" y="243" text-anchor="middle" fill="#D6B46A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="600">Kotlin</text>
+
+  <rect x="164" y="224" width="144" height="30" rx="10" fill="#0A0A0A" stroke="#242424"/>
+  <text x="236" y="243" text-anchor="middle" fill="#F5F5F5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="600">Jetpack Compose</text>
+
+  <rect x="318" y="224" width="124" height="30" rx="10" fill="#0A0A0A" stroke="#242424"/>
+  <text x="380" y="243" text-anchor="middle" fill="#24B47E" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="600">Room + Hilt</text>
+
+  <rect x="452" y="224" width="150" height="30" rx="10" fill="#0A0A0A" stroke="#242424"/>
+  <text x="527" y="243" text-anchor="middle" fill="#A1A7B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="600">PIN + Biometric</text>
+
+  <text x="64" y="302" fill="#7D8491" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">Cash • Bank • bKash • Nagad • Rocket • Upay • Credit Cards • Loans &amp; Borrowings</text>
+
+  <!-- Right BankCardVisual Matching Actual Compose Component -->
+  <g>
+    <rect x="726" y="56" width="410" height="248" rx="24" fill="url(#cardGrad)" stroke="#D6B46A" stroke-opacity="0.48" stroke-width="1.4"/>
+
+    <!-- Top Row: Icon + Account Name + HISABI • CASH | Star + HISABI -->
+    <rect x="752" y="80" width="36" height="36" rx="10" fill="#211B0F"/>
+    <rect x="762" y="91" width="16" height="14" rx="3" stroke="#D6B46A" stroke-width="1.5"/>
+    <text x="798" y="96" fill="#F5F5F5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">Cash Wallet</text>
+    <text x="798" y="112" fill="#D6B46A" fill-opacity="0.82" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="500" letter-spacing="1.2">HISABI • CASH</text>
+
+    <polygon points="1039,88 1041,93 1046,93 1042,96 1044,101 1039,98 1034,101 1036,96 1032,93 1037,93" fill="#D6B46A"/>
+    <text x="1110" y="99" text-anchor="end" fill="#F0D9A0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="2">HISABI</text>
+
+    <!-- Middle Row: AVAILABLE BALANCE (left) + Champagne Gold EMV Chip & Contactless (right) -->
+    <text x="752" y="168" fill="#A1A7B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="500" letter-spacing="1.1">AVAILABLE BALANCE</text>
+    <text x="752" y="200" fill="#F5F5F5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="600">৳1,48,500.00</text>
+
+    <g transform="translate(1038, 165)">
+      <rect width="40" height="29" rx="5" fill="url(#chipGrad)"/>
+      <line x1="13.5" y1="0" x2="13.5" y2="29" stroke="#3E2D0B" stroke-opacity="0.48" stroke-width="1"/>
+      <line x1="26.5" y1="0" x2="26.5" y2="29" stroke="#3E2D0B" stroke-opacity="0.48" stroke-width="1"/>
+      <line x1="0" y1="14.5" x2="13.5" y2="14.5" stroke="#3E2D0B" stroke-opacity="0.48" stroke-width="1"/>
+      <line x1="26.5" y1="14.5" x2="40" y2="14.5" stroke="#3E2D0B" stroke-opacity="0.48" stroke-width="1"/>
+      <rect x="13.5" y="7" width="13" height="15" rx="2" stroke="#3E2D0B" stroke-opacity="0.48" stroke-width="1"/>
+    </g>
+    <path d="M1094 173C1097 176 1097 183 1094 186" stroke="#D6B46A" stroke-width="1.6" stroke-linecap="round" stroke-opacity="0.72"/>
+    <path d="M1100 169C1105 174 1105 185 1100 190" stroke="#D6B46A" stroke-width="1.6" stroke-linecap="round" stroke-opacity="0.55"/>
+
+    <!-- Bottom Row: Account Mask + Network -->
+    <text x="752" y="274" fill="#F5F5F5" fill-opacity="0.86" font-family="monospace" font-size="12" font-weight="500" letter-spacing="1.2">PHYSICAL CASH VAULT</text>
+    <text x="1110" y="274" text-anchor="end" fill="#F0D9A0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">CASH</text>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Hisabi</string>
+    <string name="nav_wallet">Wallet</string>
+    <string name="nav_cards">Cards</string>
+    <string name="nav_insights">Insights</string>
+    <string name="nav_vault">Vault</string>
+    <string name="offline_badge">100% Offline</string>
+    <string name="total_liquid_balance">Total Liquid Balance</string>
+    <string name="add_account_title">Add Bank, Card or MFS</string>
+    <string name="edit_account_title">Edit Account</string>
+    <string name="add_transaction_title">Record Transaction</string>
+    <string name="empty_wallet_title">Your Private Wealth Ledger</string>
+    <string name="empty_wallet_subtitle">Add your bank accounts, debit/credit cards, and MFS wallets to track balances and expenses privately on-device.</string>
+    <string name="action_add_first_card">Add First Card or MFS</string>
+    <string name="action_spend">Expense</string>
+    <string name="action_income">Income</string>
+    <string name="action_transfer">Transfer</string>
+    <string name="action_details">Edit</string>
+    <string name="toggle_privacy_desc">Toggle balance visibility</string>
+    <string name="export_csv">Export CSV Statement</string>
+    <string name="backup_json">Save Offline Backup (JSON)</string>
+    <string name="restore_json">Restore Offline Backup</string>
+    <string name="app_made_by_label">Developer</string>
+    <string name="app_made_by_value">Robiul Awal Fagun</string>
+    <string name="app_website_label">Website</string>
+    <string name="app_website_url">https://0xrobiul.me</string>
+</resources>
